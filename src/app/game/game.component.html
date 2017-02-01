@@ -1,0 +1,24 @@
+<p>Small piece of code</p>
+<pre>
+  public changeTime():any (
+    	if (!this.time  !this.chekedTime) (
+        clearInterval(this.timerId);
+        this.isTimerTick = false;
+        this.saveLive = false;    //pop image lives array
+        return;
+      ) else (
+       		if (this.chekedTime  this.time) (
+            clearInterval(this.timerId);
+            this.isTimerTick = false;
+            this.saveLive = true;  //savelive
+            return;
+           )
+          this.isTimerTick = true;
+          this.time =  this.time - 1000;
+          return this.time;
+      )
+  )  
+  // I am so sorry, but we can not have opportunity to use "curly brackets" in different tags
+</pre>
+<h2>You can play this game <a href="https://kashaevad.github.io//game-card//">here!!!</a></h2>
+<h2>And look at mu code <a href="https://github.com/KashaevaD/game-card">here.</a></h2>

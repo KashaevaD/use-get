@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <nav>
+        <a routerLink="/home" class="btn btn-link">Go home</a>
+    </nav>
+  </div>
+  <div class="row table">
+    <table class="table table-striped table-hover ">
+      <thead>
+        <tr>
+          <th>CSS lesson</th>
+          <th>Game</th>
+          <th>Work with http</th>
+          <th>Pascal tasks</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="info">
+          <td><a routerLink="/css">Done</a></td>
+          <td><a routerLink="/game">Done</a></td>
+          <td><a routerLink="/search">Done</a></td>
+          <td><a routerLink="/pascal">Done</a></td>
+        </tr>
+      
+      </tbody>
+    </table> 
+  </div>
+
+  <div class="row outlet">
+     <router-outlet></router-outlet>
+  </div>
+</div>
